@@ -3,8 +3,12 @@
 using namespace std;
 
 int main() {
-    float height = 165;
-    float weight = 55;
+    float height , weight;
+
+    cout << "Height (cm) : ";
+    cin >> height;
+    cout << "Weight (kg) : ";
+    cin >> weight;
     
     // rumus bmi (berat badan (kg) / (tinggi (meter) * tinggi (meter))
     float bmi = weight / ((height / 100) * (height / 100));

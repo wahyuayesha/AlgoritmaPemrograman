@@ -8,7 +8,7 @@ void baris(float m, int w) {
     float mm = m * 1000;
 
     cout << left << setw(w) << m << left << setw(w) << cm << left << setw(w) << mm << left << setw(w) << km << endl;
-}
+} 
 
 int main() {
     int w = 13;
