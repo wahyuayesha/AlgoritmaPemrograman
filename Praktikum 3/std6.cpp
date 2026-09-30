@@ -14,6 +14,7 @@ int main()
         cin >> suhu[i];
         total += suhu[i];
     }
+    
     rataRata = total/size(suhu);
     cout << "==========================" << endl << left;
     cout << setw(15) << "Rata-rata Suhu " << ": " << fixed << setprecision(1) << rataRata << endl;
